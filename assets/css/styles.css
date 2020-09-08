@@ -224,7 +224,7 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: .75rem 2.5rem;
+  padding: .50rem 1.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
 }
@@ -321,6 +321,9 @@ img{
   transform: scale(1.1);
 }
 
+.project_data{
+  font-weight: var(--font-semi);
+}
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
@@ -427,7 +430,7 @@ img{
     width: 300px;
   }
   .work__container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
